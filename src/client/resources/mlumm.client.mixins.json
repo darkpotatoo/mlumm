@@ -3,7 +3,9 @@
 	"package": "darkpotatoo.mlumm.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"DamageMixin",
+		"TickMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
