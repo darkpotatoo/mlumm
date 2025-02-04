@@ -8,9 +8,11 @@ import net.fabricmc.api.ClientModInitializer;
 public class MlummClient implements ClientModInitializer {
 
 	public static final String MODID = "mlumm";
-    private static final Logger LOGGER = LogUtils.getLogger();
+	private static final Logger LOGGER = LogUtils.getLogger();
 
 	public static int combatTicks = 0;
+	public static int crateTicks = 0;
+
 
 	@Override
 	public void onInitializeClient() {

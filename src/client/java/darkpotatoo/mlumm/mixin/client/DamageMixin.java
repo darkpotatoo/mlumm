@@ -23,5 +23,6 @@ public abstract class DamageMixin extends LivingEntity {
     private void onDamage(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
         LOGGER.info("COMBAT/Start Timer");
         MlummClient.combatTicks = 100;
+
     }
 }
