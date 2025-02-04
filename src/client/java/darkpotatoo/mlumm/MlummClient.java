@@ -2,6 +2,7 @@ package darkpotatoo.mlumm;
 
 import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;
+import darkpotatoo.mlumm.Item;
 
 import net.fabricmc.api.ClientModInitializer;
 
@@ -17,5 +18,7 @@ public class MlummClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		LOGGER.info("mlum mod loading...");
+		LOGGER.info("Loading items...");
+		Item.InitItems();
 	}
 }
