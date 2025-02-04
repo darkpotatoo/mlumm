@@ -13,6 +13,7 @@ public class MlummClient implements ClientModInitializer {
 
 	public static int combatTicks = 0;
 	public static int crateTicks = 0;
+	public static int deskTicks = 0;
 
 
 	@Override

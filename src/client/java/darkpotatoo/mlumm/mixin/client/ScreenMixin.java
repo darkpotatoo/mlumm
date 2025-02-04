@@ -22,5 +22,8 @@ public abstract class ScreenMixin {
         if (getTitle().getString().contains("Loot Barrel")) {
             MlummClient.crateTicks = 7200;
         }
+        if (getTitle().getString().contains("Loot Desk")) {
+            MlummClient.deskTicks = 7200;
+        }
     }
 }
